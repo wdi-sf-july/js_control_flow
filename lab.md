@@ -26,6 +26,6 @@ count = "5"
 and output the pluralized form of the word like "5 cats" or "1 dog"..
 
 ##tempConvert.js
-Convert a temperature from F to C.
+Convert a temperature from C to F.
 
 Convert it to fahrenheit and output "NN°C is NN°F".
