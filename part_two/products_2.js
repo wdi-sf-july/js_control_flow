@@ -10,12 +10,14 @@ var products = require("../products.json");
 
 var items = products['items'],
     count = 0,
-    availableProducts = [];
+    availableProducts = [],
+    inventories,
+    isAdded;
 
 for (var i = 0, currentItem; i < items.length; i++) {
   currentItem = items[i];
-  var inventories = currentItem.product.inventories;
-  var isAdded = false;
+  inventories = currentItem.product.inventories;
+  isAdded = false;
   for (var j = 0, inventory; j < inventories.length && !isAdded; j++) {
     inventory = inventories[j];
     if ( inventory.availability === "inStock") {
