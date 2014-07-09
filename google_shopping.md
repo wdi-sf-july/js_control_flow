@@ -9,7 +9,7 @@ Use the product search result in your file to check the following:
 
 2.) Find all items with a `backorder` availability in `inventories`.
 
-3.) Find all items with more than one link.
+3.) Find all items with more than one image link.
 
 
 4.) Find all `canon` products in the items (careful with case sensitivity).
